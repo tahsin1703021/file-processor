@@ -1,0 +1,24 @@
+{
+  "name": "file-processor-worker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node index.ts",
+    "start:genFullBase": "ts-node service/createFullBase.ts",
+    "start:genFullBaseWithChannelId": "ts-node service/createFullBaseWithCannelId.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "axios": "^1.7.2",
+    "csv-reader": "^1.0.12",
+    "node-fetch": "^3.3.2"
+  }
+}
