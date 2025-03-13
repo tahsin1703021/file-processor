@@ -7,7 +7,8 @@ const { exec } = require('child_process');
     const args = process.argv.slice(2);
     if(args.length !==1 ){
         console.log('Provide number of msisdns for fullbase');
-        process.exit();
+        // process.exit();
+        return;
     }
     let noOfMsisdns = parseInt(args[0]);
     
